@@ -1,0 +1,71 @@
+
+@import url('https://fonts.cdnfonts.com/css/yusei-magic');
+                
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 0px;
+    text-align: center;
+    margin-left: 30%;
+   margin-left: 500px;
+    }
+
+   
+    input{
+        font-family: 'Yusei Magic', sans-serif;
+                                                
+        background-color:lightblue;
+        height:63px;
+        border: solid black; 
+    width: 96%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 5 / 5; background-color: lightblue;  height:70px; border: solid black; margin-top: 150px;}
+    .div2 { grid-area: 5 / 1 / 6 / 2;  background-color: gray}
+    .div3 { grid-area: 5 / 4 / 6 / 5; background-color:gray}
+    .div4 { grid-area: 6 / 1 / 7 / 2; background-color:gray}
+    .div5 { grid-area: 6 / 2 / 7 / 3; }
+    .div6 { grid-area: 6 / 3 / 7 / 4; }
+    .div7 { grid-area: 6 / 4 / 7 / 5; }
+    .div8 { grid-area: 7 / 1 / 8 / 2; }
+    .div9 { grid-area: 7 / 2 / 8 / 3; }
+    .div10 { grid-area: 7 / 3 / 8 / 4; }
+    .div11 { grid-area: 7 / 4 / 8 / 5; }
+    .div12 { grid-area: 8 / 1 / 9 / 2; }
+    .div13 { grid-area: 8 / 2 / 9 / 3; }
+    .div14 { grid-area: 8 / 3 / 9 / 4; }
+    .div15 { grid-area: 8 / 4 / 9 / 5; }
+    .div16 { grid-area: 9 / 2 / 10 / 3; }
+    .div17 { grid-area: 9 / 3 / 10 / 4; }
+    .div18 { grid-area: 9 / 4 / 10 / 5; }
+
+    button{
+        font-family: 'Yusei Magic', sans-serif;
+                                                
+        color: black;
+        width: 50px;
+        height:50px;
+        
+    }
+    .tela{
+        border: 5px solid black;
+    } 
+    .cor2{
+        background-color: palevioletred
+
+    }
+    .cor3{
+        background-color: pink
+    }
+    .cor4{
+        background-color: coral
+    }
+    .cor5{
+        background-color: indianred
+    }
+    body{
+background-image: url("https://i.pinimg.com/originals/7e/cb/26/7ecb26efb022e6368c8caa3d49b413c5.jpg");
+    }
